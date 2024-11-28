@@ -67,7 +67,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/marya/OneDrive/Desktop/Project/cmake-build-debug"
+			"value" : "c:/Users/FatimaN/Desktop/Fatima/Fall 24/ADS_Project/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -571,7 +571,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/marya/OneDrive/Desktop/Project/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/FatimaN/Desktop/Fatima/Fall 24/ADS_Project/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -643,7 +643,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/marya/OneDrive/Desktop/Project"
+			"value" : "C:/Users/FatimaN/Desktop/Fatima/Fall 24/ADS_Project"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -1595,7 +1595,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/marya/OneDrive/Desktop/Project/cmake-build-debug/Code_lib"
+			"value" : "C:/Users/FatimaN/Desktop/Fatima/Fall 24/ADS_Project/cmake-build-debug/Code_lib"
 		},
 		{
 			"name" : "Code_lib_IS_TOP_LEVEL",
@@ -1619,7 +1619,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/marya/OneDrive/Desktop/Project/Code_lib"
+			"value" : "C:/Users/FatimaN/Desktop/Fatima/Fall 24/ADS_Project/Code_lib"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp",
@@ -1631,7 +1631,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[C:/Users/marya/AppData/Local/Programs/Python/Python311/python.exe][v3.11.5()]"
+			"value" : "[C:/Program Files/Python313/python.exe][v3.13()]"
 		},
 		{
 			"name" : "Google_tests_BINARY_DIR",
@@ -1643,7 +1643,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/marya/OneDrive/Desktop/Project/cmake-build-debug/Google_tests"
+			"value" : "C:/Users/FatimaN/Desktop/Fatima/Fall 24/ADS_Project/cmake-build-debug/Google_tests"
 		},
 		{
 			"name" : "Google_tests_IS_TOP_LEVEL",
@@ -1667,7 +1667,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/marya/OneDrive/Desktop/Project/Google_tests"
+			"value" : "C:/Users/FatimaN/Desktop/Fatima/Fall 24/ADS_Project/Google_tests"
 		},
 		{
 			"name" : "INSTALL_GTEST",
@@ -1695,7 +1695,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/marya/AppData/Local/Programs/Python/Python311/python.exe"
+			"value" : "C:/Program Files/Python313/python.exe"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
@@ -1731,7 +1731,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/marya/OneDrive/Desktop/Project/cmake-build-debug/Google_tests/lib/googletest/generated"
+			"value" : "C:/Users/FatimaN/Desktop/Fatima/Fall 24/ADS_Project/cmake-build-debug/Google_tests/lib/googletest/generated"
 		},
 		{
 			"name" : "gmock_BINARY_DIR",
@@ -1743,7 +1743,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/marya/OneDrive/Desktop/Project/cmake-build-debug/Google_tests/lib/googlemock"
+			"value" : "C:/Users/FatimaN/Desktop/Fatima/Fall 24/ADS_Project/cmake-build-debug/Google_tests/lib/googlemock"
 		},
 		{
 			"name" : "gmock_IS_TOP_LEVEL",
@@ -1767,7 +1767,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/marya/OneDrive/Desktop/Project/Google_tests/lib/googlemock"
+			"value" : "C:/Users/FatimaN/Desktop/Fatima/Fall 24/ADS_Project/Google_tests/lib/googlemock"
 		},
 		{
 			"name" : "gmock_build_tests",
@@ -1795,7 +1795,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/marya/OneDrive/Desktop/Project/cmake-build-debug/Google_tests/lib"
+			"value" : "C:/Users/FatimaN/Desktop/Fatima/Fall 24/ADS_Project/cmake-build-debug/Google_tests/lib"
 		},
 		{
 			"name" : "googletest-distribution_IS_TOP_LEVEL",
@@ -1819,7 +1819,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/marya/OneDrive/Desktop/Project/Google_tests/lib"
+			"value" : "C:/Users/FatimaN/Desktop/Fatima/Fall 24/ADS_Project/Google_tests/lib"
 		},
 		{
 			"name" : "gtest_BINARY_DIR",
@@ -1831,7 +1831,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/marya/OneDrive/Desktop/Project/cmake-build-debug/Google_tests/lib/googletest"
+			"value" : "C:/Users/FatimaN/Desktop/Fatima/Fall 24/ADS_Project/cmake-build-debug/Google_tests/lib/googletest"
 		},
 		{
 			"name" : "gtest_IS_TOP_LEVEL",
@@ -1855,7 +1855,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/marya/OneDrive/Desktop/Project/Google_tests/lib/googletest"
+			"value" : "C:/Users/FatimaN/Desktop/Fatima/Fall 24/ADS_Project/Google_tests/lib/googletest"
 		},
 		{
 			"name" : "gtest_build_samples",
@@ -1959,7 +1959,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/marya/OneDrive/Desktop/Project/cmake-build-debug"
+			"value" : "C:/Users/FatimaN/Desktop/Fatima/Fall 24/ADS_Project/cmake-build-debug"
 		},
 		{
 			"name" : "testing_test_IS_TOP_LEVEL",
@@ -1983,7 +1983,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/marya/OneDrive/Desktop/Project"
+			"value" : "C:/Users/FatimaN/Desktop/Fatima/Fall 24/ADS_Project"
 		}
 	],
 	"kind" : "cache",

@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/marya/OneDrive/Desktop/Project/Code_lib/ExpressionTree.cpp" "Code_lib/CMakeFiles/Code_lib.dir/ExpressionTree.cpp.obj" "gcc" "Code_lib/CMakeFiles/Code_lib.dir/ExpressionTree.cpp.obj.d"
-  "C:/Users/marya/OneDrive/Desktop/Project/Code_lib/MyStack.cpp" "Code_lib/CMakeFiles/Code_lib.dir/MyStack.cpp.obj" "gcc" "Code_lib/CMakeFiles/Code_lib.dir/MyStack.cpp.obj.d"
-  "C:/Users/marya/OneDrive/Desktop/Project/Code_lib/MyVector.cpp" "Code_lib/CMakeFiles/Code_lib.dir/MyVector.cpp.obj" "gcc" "Code_lib/CMakeFiles/Code_lib.dir/MyVector.cpp.obj.d"
+  "C:/Users/FatimaN/Desktop/Fatima/Fall 24/ADS_Project/Code_lib/ExpressionTree.cpp" "Code_lib/CMakeFiles/Code_lib.dir/ExpressionTree.cpp.obj" "gcc" "Code_lib/CMakeFiles/Code_lib.dir/ExpressionTree.cpp.obj.d"
+  "C:/Users/FatimaN/Desktop/Fatima/Fall 24/ADS_Project/Code_lib/MyStack.cpp" "Code_lib/CMakeFiles/Code_lib.dir/MyStack.cpp.obj" "gcc" "Code_lib/CMakeFiles/Code_lib.dir/MyStack.cpp.obj.d"
+  "C:/Users/FatimaN/Desktop/Fatima/Fall 24/ADS_Project/Code_lib/MyVector.cpp" "Code_lib/CMakeFiles/Code_lib.dir/MyVector.cpp.obj" "gcc" "Code_lib/CMakeFiles/Code_lib.dir/MyVector.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

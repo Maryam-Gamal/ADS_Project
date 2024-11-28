@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/marya/OneDrive/Desktop/Project/Google_tests/lib/googlemock
+# Install script for directory: C:/Users/FatimaN/Desktop/Fatima/Fall 24/ADS_Project/Google_tests/lib/googlemock
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,26 +39,26 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/marya/OneDrive/Desktop/Project/cmake-build-debug/Google_tests/lib/googletest/cmake_install.cmake")
+  include("C:/Users/FatimaN/Desktop/Fatima/Fall 24/ADS_Project/cmake-build-debug/Google_tests/lib/googletest/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/Users/marya/OneDrive/Desktop/Project/Google_tests/lib/googlemock/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/Users/FatimaN/Desktop/Fatima/Fall 24/ADS_Project/Google_tests/lib/googlemock/include/")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/marya/OneDrive/Desktop/Project/cmake-build-debug/lib/libgmockd.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/FatimaN/Desktop/Fatima/Fall 24/ADS_Project/cmake-build-debug/lib/libgmockd.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/marya/OneDrive/Desktop/Project/cmake-build-debug/lib/libgmock_maind.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/FatimaN/Desktop/Fatima/Fall 24/ADS_Project/cmake-build-debug/lib/libgmock_maind.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/Users/marya/OneDrive/Desktop/Project/cmake-build-debug/Google_tests/lib/googletest/generated/gmock.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/Users/FatimaN/Desktop/Fatima/Fall 24/ADS_Project/cmake-build-debug/Google_tests/lib/googletest/generated/gmock.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/Users/marya/OneDrive/Desktop/Project/cmake-build-debug/Google_tests/lib/googletest/generated/gmock_main.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/Users/FatimaN/Desktop/Fatima/Fall 24/ADS_Project/cmake-build-debug/Google_tests/lib/googletest/generated/gmock_main.pc")
 endif()
 

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/marya/OneDrive/Desktop/Project/Code_lib
+# Install script for directory: C:/Users/FatimaN/Desktop/Fatima/Fall 24/ADS_Project/Code_lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

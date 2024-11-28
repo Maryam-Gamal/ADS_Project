@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/marya/OneDrive/Desktop/Project/Google_tests
+# Install script for directory: C:/Users/FatimaN/Desktop/Fatima/Fall 24/ADS_Project/Google_tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,6 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/marya/OneDrive/Desktop/Project/cmake-build-debug/Google_tests/lib/cmake_install.cmake")
+  include("C:/Users/FatimaN/Desktop/Fatima/Fall 24/ADS_Project/cmake-build-debug/Google_tests/lib/cmake_install.cmake")
 endif()
 
