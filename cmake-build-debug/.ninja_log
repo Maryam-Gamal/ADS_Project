@@ -1,0 +1,14 @@
+# ninja log v5
+1	400	1725442098617138891	Code_lib/CMakeFiles/Code_lib.dir/TowersOfHanoi.cpp.o	deff924a38126a7d
+0	401	1725442098618889515	CMakeFiles/Code_lib_run.dir/main.cpp.o	80469b3e36e5adc4
+0	402	1725442098619650597	Code_lib/CMakeFiles/Code_lib.dir/Stackt.cpp.o	47e9a29465f6110f
+1	407	1725442098618365474	Code_lib/CMakeFiles/Code_lib.dir/SimpleCalculator.cpp.o	845224fb12ed1d52
+407	439	1725442098660883000	Code_lib/libCode_lib.a	b464b0ee2823e59f
+439	534	1725442098751030565	Code_lib_run	2ccd7afc54681b1b
+2	552	1725442114812345907	Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o	f3c1e56ad326fa0a
+1	609	1725442114869735315	Google_tests/CMakeFiles/Google_Tests_run.dir/TestHanoi.cpp.o	7938d07f2791c5fe
+2	615	1725442114876436892	Google_tests/CMakeFiles/Google_Tests_run.dir/TestCalculator.cpp.o	9a9a62d027944a86
+2	1225	1725442115484601314	Google_tests/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	d1c838fbf8550d76
+1225	1249	1725442115514692000	lib/libgtestd.a	2769899556e25f17
+1250	1261	1725442115526678000	lib/libgtest_maind.a	b1fac6679c1143de
+1261	1312	1725442115571158071	Google_tests/Google_Tests_run	7c23d66526c01905
