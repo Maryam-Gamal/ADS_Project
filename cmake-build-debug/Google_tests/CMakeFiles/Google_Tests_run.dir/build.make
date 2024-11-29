@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\ouail estoyloco\Desktop\mememe\college\semester 4\applied data structures\converter\ADS_Project"
+CMAKE_SOURCE_DIR = C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\ouail estoyloco\Desktop\mememe\college\semester 4\applied data structures\converter\ADS_Project\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include Google_tests/CMakeFiles/Google_Tests_run.dir/depend.make
@@ -70,33 +70,33 @@ include Google_tests/CMakeFiles/Google_Tests_run.dir/flags.make
 
 Google_tests/CMakeFiles/Google_Tests_run.dir/TestStack.cpp.obj: Google_tests/CMakeFiles/Google_Tests_run.dir/flags.make
 Google_tests/CMakeFiles/Google_Tests_run.dir/TestStack.cpp.obj: Google_tests/CMakeFiles/Google_Tests_run.dir/includes_CXX.rsp
-Google_tests/CMakeFiles/Google_Tests_run.dir/TestStack.cpp.obj: C:/Users/ouail\ estoyloco/Desktop/mememe/college/semester\ 4/applied\ data\ structures/converter/ADS_Project/Google_tests/TestStack.cpp
+Google_tests/CMakeFiles/Google_Tests_run.dir/TestStack.cpp.obj: C:/Users/marya/OneDrive/Documents/GitHub/ADS_Project/Google_tests/TestStack.cpp
 Google_tests/CMakeFiles/Google_Tests_run.dir/TestStack.cpp.obj: Google_tests/CMakeFiles/Google_Tests_run.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\ouail estoyloco\Desktop\mememe\college\semester 4\applied data structures\converter\ADS_Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Google_tests/CMakeFiles/Google_Tests_run.dir/TestStack.cpp.obj"
-	cd /d C:\Users\OUAILE~1\Desktop\mememe\college\SEMEST~4\APPLIE~1\CONVER~1\ADS_PR~1\CMAKE-~1\GOOGLE~1 && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Google_tests/CMakeFiles/Google_Tests_run.dir/TestStack.cpp.obj -MF CMakeFiles\Google_Tests_run.dir\TestStack.cpp.obj.d -o CMakeFiles\Google_Tests_run.dir\TestStack.cpp.obj -c "C:\Users\ouail estoyloco\Desktop\mememe\college\semester 4\applied data structures\converter\ADS_Project\Google_tests\TestStack.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Google_tests/CMakeFiles/Google_Tests_run.dir/TestStack.cpp.obj"
+	cd /d C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\cmake-build-debug\Google_tests && C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Google_tests/CMakeFiles/Google_Tests_run.dir/TestStack.cpp.obj -MF CMakeFiles\Google_Tests_run.dir\TestStack.cpp.obj.d -o CMakeFiles\Google_Tests_run.dir\TestStack.cpp.obj -c C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\Google_tests\TestStack.cpp
 
 Google_tests/CMakeFiles/Google_Tests_run.dir/TestStack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Google_Tests_run.dir/TestStack.cpp.i"
-	cd /d C:\Users\OUAILE~1\Desktop\mememe\college\SEMEST~4\APPLIE~1\CONVER~1\ADS_PR~1\CMAKE-~1\GOOGLE~1 && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\ouail estoyloco\Desktop\mememe\college\semester 4\applied data structures\converter\ADS_Project\Google_tests\TestStack.cpp" > CMakeFiles\Google_Tests_run.dir\TestStack.cpp.i
+	cd /d C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\cmake-build-debug\Google_tests && C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\Google_tests\TestStack.cpp > CMakeFiles\Google_Tests_run.dir\TestStack.cpp.i
 
 Google_tests/CMakeFiles/Google_Tests_run.dir/TestStack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Google_Tests_run.dir/TestStack.cpp.s"
-	cd /d C:\Users\OUAILE~1\Desktop\mememe\college\SEMEST~4\APPLIE~1\CONVER~1\ADS_PR~1\CMAKE-~1\GOOGLE~1 && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\ouail estoyloco\Desktop\mememe\college\semester 4\applied data structures\converter\ADS_Project\Google_tests\TestStack.cpp" -o CMakeFiles\Google_Tests_run.dir\TestStack.cpp.s
+	cd /d C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\cmake-build-debug\Google_tests && C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\Google_tests\TestStack.cpp -o CMakeFiles\Google_Tests_run.dir\TestStack.cpp.s
 
 Google_tests/CMakeFiles/Google_Tests_run.dir/TestVector.cpp.obj: Google_tests/CMakeFiles/Google_Tests_run.dir/flags.make
 Google_tests/CMakeFiles/Google_Tests_run.dir/TestVector.cpp.obj: Google_tests/CMakeFiles/Google_Tests_run.dir/includes_CXX.rsp
-Google_tests/CMakeFiles/Google_Tests_run.dir/TestVector.cpp.obj: C:/Users/ouail\ estoyloco/Desktop/mememe/college/semester\ 4/applied\ data\ structures/converter/ADS_Project/Google_tests/TestVector.cpp
+Google_tests/CMakeFiles/Google_Tests_run.dir/TestVector.cpp.obj: C:/Users/marya/OneDrive/Documents/GitHub/ADS_Project/Google_tests/TestVector.cpp
 Google_tests/CMakeFiles/Google_Tests_run.dir/TestVector.cpp.obj: Google_tests/CMakeFiles/Google_Tests_run.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\ouail estoyloco\Desktop\mememe\college\semester 4\applied data structures\converter\ADS_Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Google_tests/CMakeFiles/Google_Tests_run.dir/TestVector.cpp.obj"
-	cd /d C:\Users\OUAILE~1\Desktop\mememe\college\SEMEST~4\APPLIE~1\CONVER~1\ADS_PR~1\CMAKE-~1\GOOGLE~1 && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Google_tests/CMakeFiles/Google_Tests_run.dir/TestVector.cpp.obj -MF CMakeFiles\Google_Tests_run.dir\TestVector.cpp.obj.d -o CMakeFiles\Google_Tests_run.dir\TestVector.cpp.obj -c "C:\Users\ouail estoyloco\Desktop\mememe\college\semester 4\applied data structures\converter\ADS_Project\Google_tests\TestVector.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Google_tests/CMakeFiles/Google_Tests_run.dir/TestVector.cpp.obj"
+	cd /d C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\cmake-build-debug\Google_tests && C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Google_tests/CMakeFiles/Google_Tests_run.dir/TestVector.cpp.obj -MF CMakeFiles\Google_Tests_run.dir\TestVector.cpp.obj.d -o CMakeFiles\Google_Tests_run.dir\TestVector.cpp.obj -c C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\Google_tests\TestVector.cpp
 
 Google_tests/CMakeFiles/Google_Tests_run.dir/TestVector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Google_Tests_run.dir/TestVector.cpp.i"
-	cd /d C:\Users\OUAILE~1\Desktop\mememe\college\SEMEST~4\APPLIE~1\CONVER~1\ADS_PR~1\CMAKE-~1\GOOGLE~1 && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\ouail estoyloco\Desktop\mememe\college\semester 4\applied data structures\converter\ADS_Project\Google_tests\TestVector.cpp" > CMakeFiles\Google_Tests_run.dir\TestVector.cpp.i
+	cd /d C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\cmake-build-debug\Google_tests && C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\Google_tests\TestVector.cpp > CMakeFiles\Google_Tests_run.dir\TestVector.cpp.i
 
 Google_tests/CMakeFiles/Google_Tests_run.dir/TestVector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Google_Tests_run.dir/TestVector.cpp.s"
-	cd /d C:\Users\OUAILE~1\Desktop\mememe\college\SEMEST~4\APPLIE~1\CONVER~1\ADS_PR~1\CMAKE-~1\GOOGLE~1 && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\ouail estoyloco\Desktop\mememe\college\semester 4\applied data structures\converter\ADS_Project\Google_tests\TestVector.cpp" -o CMakeFiles\Google_Tests_run.dir\TestVector.cpp.s
+	cd /d C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\cmake-build-debug\Google_tests && C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\Google_tests\TestVector.cpp -o CMakeFiles\Google_Tests_run.dir\TestVector.cpp.s
 
 # Object files for target Google_Tests_run
 Google_Tests_run_OBJECTS = \
@@ -116,18 +116,18 @@ Google_tests/Google_Tests_run.exe: lib/libgtestd.a
 Google_tests/Google_Tests_run.exe: Google_tests/CMakeFiles/Google_Tests_run.dir/linkLibs.rsp
 Google_tests/Google_Tests_run.exe: Google_tests/CMakeFiles/Google_Tests_run.dir/objects1.rsp
 Google_tests/Google_Tests_run.exe: Google_tests/CMakeFiles/Google_Tests_run.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\ouail estoyloco\Desktop\mememe\college\semester 4\applied data structures\converter\ADS_Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Google_Tests_run.exe"
-	cd /d C:\Users\OUAILE~1\Desktop\mememe\college\SEMEST~4\APPLIE~1\CONVER~1\ADS_PR~1\CMAKE-~1\GOOGLE~1 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Google_Tests_run.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Google_Tests_run.exe"
+	cd /d C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\cmake-build-debug\Google_tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Google_Tests_run.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Google_tests/CMakeFiles/Google_Tests_run.dir/build: Google_tests/Google_Tests_run.exe
 .PHONY : Google_tests/CMakeFiles/Google_Tests_run.dir/build
 
 Google_tests/CMakeFiles/Google_Tests_run.dir/clean:
-	cd /d C:\Users\OUAILE~1\Desktop\mememe\college\SEMEST~4\APPLIE~1\CONVER~1\ADS_PR~1\CMAKE-~1\GOOGLE~1 && $(CMAKE_COMMAND) -P CMakeFiles\Google_Tests_run.dir\cmake_clean.cmake
+	cd /d C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\cmake-build-debug\Google_tests && $(CMAKE_COMMAND) -P CMakeFiles\Google_Tests_run.dir\cmake_clean.cmake
 .PHONY : Google_tests/CMakeFiles/Google_Tests_run.dir/clean
 
 Google_tests/CMakeFiles/Google_Tests_run.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\ouail estoyloco\Desktop\mememe\college\semester 4\applied data structures\converter\ADS_Project" "C:\Users\ouail estoyloco\Desktop\mememe\college\semester 4\applied data structures\converter\ADS_Project\Google_tests" "C:\Users\ouail estoyloco\Desktop\mememe\college\semester 4\applied data structures\converter\ADS_Project\cmake-build-debug" "C:\Users\ouail estoyloco\Desktop\mememe\college\semester 4\applied data structures\converter\ADS_Project\cmake-build-debug\Google_tests" "C:\Users\ouail estoyloco\Desktop\mememe\college\semester 4\applied data structures\converter\ADS_Project\cmake-build-debug\Google_tests\CMakeFiles\Google_Tests_run.dir\DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\Google_tests C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\cmake-build-debug C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\cmake-build-debug\Google_tests C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\cmake-build-debug\Google_tests\CMakeFiles\Google_Tests_run.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : Google_tests/CMakeFiles/Google_Tests_run.dir/depend
 

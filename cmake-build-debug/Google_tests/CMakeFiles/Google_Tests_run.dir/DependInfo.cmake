@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/ouail estoyloco/Desktop/mememe/college/semester 4/applied data structures/converter/ADS_Project/Google_tests/TestStack.cpp" "Google_tests/CMakeFiles/Google_Tests_run.dir/TestStack.cpp.obj" "gcc" "Google_tests/CMakeFiles/Google_Tests_run.dir/TestStack.cpp.obj.d"
-  "C:/Users/ouail estoyloco/Desktop/mememe/college/semester 4/applied data structures/converter/ADS_Project/Google_tests/TestVector.cpp" "Google_tests/CMakeFiles/Google_Tests_run.dir/TestVector.cpp.obj" "gcc" "Google_tests/CMakeFiles/Google_Tests_run.dir/TestVector.cpp.obj.d"
+  "C:/Users/marya/OneDrive/Documents/GitHub/ADS_Project/Google_tests/TestStack.cpp" "Google_tests/CMakeFiles/Google_Tests_run.dir/TestStack.cpp.obj" "gcc" "Google_tests/CMakeFiles/Google_Tests_run.dir/TestStack.cpp.obj.d"
+  "C:/Users/marya/OneDrive/Documents/GitHub/ADS_Project/Google_tests/TestVector.cpp" "Google_tests/CMakeFiles/Google_Tests_run.dir/TestVector.cpp.obj" "gcc" "Google_tests/CMakeFiles/Google_Tests_run.dir/TestVector.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

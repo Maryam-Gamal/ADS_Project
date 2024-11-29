@@ -94,3 +94,18 @@ TEST_F(TestVector, Iterators) {
     --rit;
     EXPECT_EQ(*rit, "Kiwi");
 }
+
+// Test automatic resizing
+TEST_F(TestVector, AutoResizeTest) {
+    // Push more elements than initial capacity
+    for (int i = 0; i < 20; ++i) {
+        vec.push_back("Element " + std::to_string(i));
+    }
+
+    EXPECT_EQ(vec.getSize(), 20);
+
+    // Verify all elements are correct
+    for (int i = 0; i < 20; ++i) {
+        EXPECT_EQ(vec[i], "Element " + std::to_string(i));
+    }
+}
