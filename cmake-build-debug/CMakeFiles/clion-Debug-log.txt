@@ -1,14 +1,14 @@
-"C:\Program Files\JetBrains\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "MinGW Makefiles" -S C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project -B C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\cmake-build-debug
+"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "MinGW Makefiles" -S "C:\Users\ouail estoyloco\Desktop\mememe\college\semester 4\applied data structures\converter\ADS_Project" -B "C:\Users\ouail estoyloco\Desktop\mememe\college\semester 4\applied data structures\converter\ADS_Project\cmake-build-debug"
 -- The C compiler identification is GNU 13.1.0
 -- The CXX compiler identification is GNU 13.1.0
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
--- Check for working C compiler: C:/Program Files/JetBrains/CLion 2024.2.1/bin/mingw/bin/gcc.exe - skipped
+-- Check for working C compiler: C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/gcc.exe - skipped
 -- Detecting C compile features
 -- Detecting C compile features - done
 -- Detecting CXX compiler ABI info
 -- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: C:/Program Files/JetBrains/CLion 2024.2.1/bin/mingw/bin/g++.exe - skipped
+-- Check for working CXX compiler: C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/g++.exe - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
 CMake Warning (dev) at Google_tests/lib/googletest/cmake/internal_utils.cmake:247 (find_package):
@@ -20,7 +20,7 @@ Call Stack (most recent call first):
   Google_tests/lib/googletest/CMakeLists.txt:91 (include)
 This warning is for project developers.  Use -Wno-dev to suppress it.
 
--- Found PythonInterp: C:/Users/marya/AppData/Local/Programs/Python/Python311/python.exe (found version "3.11.5")
--- Configuring done (3.4s)
--- Generating done (0.3s)
--- Build files have been written to: C:/Users/marya/OneDrive/Documents/GitHub/ADS_Project/cmake-build-debug
+-- Found PythonInterp: C:/Users/ouail estoyloco/AppData/Local/Programs/Python/Python312/python.exe (found version "3.12")
+-- Configuring done (2.3s)
+-- Generating done (0.1s)
+-- Build files have been written to: C:/Users/ouail estoyloco/Desktop/mememe/college/semester 4/applied data structures/converter/ADS_Project/cmake-build-debug
