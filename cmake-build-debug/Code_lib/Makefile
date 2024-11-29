@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\FatimaN\Desktop\Fatima\Fall 24\ADS_Project"
+CMAKE_SOURCE_DIR = "C:\Users\ouail estoyloco\Desktop\mememe\college\semester 4\applied data structures\converter\ADS_Project"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\FatimaN\Desktop\Fatima\Fall 24\ADS_Project\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\ouail estoyloco\Desktop\mememe\college\semester 4\applied data structures\converter\ADS_Project\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = "C:\Users\FatimaN\Desktop\Fatima\Fall 24\ADS_Project\cmake-bu
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -96,49 +96,49 @@ list_install_components/fast: list_install_components
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
-	"C:\Program Files\JetBrains\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
-	"C:\Program Files\JetBrains\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
-	"C:\Program Files\JetBrains\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
-	"C:\Program Files\JetBrains\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
-	"C:\Program Files\JetBrains\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
-	"C:\Program Files\JetBrains\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\FatimaN\Desktop\Fatima\FALL24~1\ADS_PR~1\CMAKE-~1 && $(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\FatimaN\Desktop\Fatima\Fall 24\ADS_Project\cmake-build-debug\CMakeFiles" "C:\Users\FatimaN\Desktop\Fatima\Fall 24\ADS_Project\cmake-build-debug\Code_lib\\CMakeFiles\progress.marks"
-	cd /d C:\Users\FatimaN\Desktop\Fatima\FALL24~1\ADS_PR~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Code_lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\FatimaN\Desktop\Fatima\Fall 24\ADS_Project\cmake-build-debug\CMakeFiles" 0
+	cd /d C:\Users\OUAILE~1\Desktop\mememe\college\SEMEST~4\APPLIE~1\CONVER~1\ADS_PR~1\CMAKE-~1 && $(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ouail estoyloco\Desktop\mememe\college\semester 4\applied data structures\converter\ADS_Project\cmake-build-debug\CMakeFiles" "C:\Users\ouail estoyloco\Desktop\mememe\college\semester 4\applied data structures\converter\ADS_Project\cmake-build-debug\Code_lib\\CMakeFiles\progress.marks"
+	cd /d C:\Users\OUAILE~1\Desktop\mememe\college\SEMEST~4\APPLIE~1\CONVER~1\ADS_PR~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Code_lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ouail estoyloco\Desktop\mememe\college\semester 4\applied data structures\converter\ADS_Project\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\FatimaN\Desktop\Fatima\FALL24~1\ADS_PR~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Code_lib/clean
+	cd /d C:\Users\OUAILE~1\Desktop\mememe\college\SEMEST~4\APPLIE~1\CONVER~1\ADS_PR~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Code_lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -147,22 +147,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\FatimaN\Desktop\Fatima\FALL24~1\ADS_PR~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Code_lib/preinstall
+	cd /d C:\Users\OUAILE~1\Desktop\mememe\college\SEMEST~4\APPLIE~1\CONVER~1\ADS_PR~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Code_lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\FatimaN\Desktop\Fatima\FALL24~1\ADS_PR~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Code_lib/preinstall
+	cd /d C:\Users\OUAILE~1\Desktop\mememe\college\SEMEST~4\APPLIE~1\CONVER~1\ADS_PR~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Code_lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\FatimaN\Desktop\Fatima\FALL24~1\ADS_PR~1\CMAKE-~1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\OUAILE~1\Desktop\mememe\college\SEMEST~4\APPLIE~1\CONVER~1\ADS_PR~1\CMAKE-~1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Code_lib/CMakeFiles/Code_lib.dir/rule:
-	cd /d C:\Users\FatimaN\Desktop\Fatima\FALL24~1\ADS_PR~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Code_lib/CMakeFiles/Code_lib.dir/rule
+	cd /d C:\Users\OUAILE~1\Desktop\mememe\college\SEMEST~4\APPLIE~1\CONVER~1\ADS_PR~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Code_lib/CMakeFiles/Code_lib.dir/rule
 .PHONY : Code_lib/CMakeFiles/Code_lib.dir/rule
 
 # Convenience name for target.
@@ -171,7 +171,7 @@ Code_lib: Code_lib/CMakeFiles/Code_lib.dir/rule
 
 # fast build rule for target.
 Code_lib/fast:
-	cd /d C:\Users\FatimaN\Desktop\Fatima\FALL24~1\ADS_PR~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f Code_lib\CMakeFiles\Code_lib.dir\build.make Code_lib/CMakeFiles/Code_lib.dir/build
+	cd /d C:\Users\OUAILE~1\Desktop\mememe\college\SEMEST~4\APPLIE~1\CONVER~1\ADS_PR~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f Code_lib\CMakeFiles\Code_lib.dir\build.make Code_lib/CMakeFiles/Code_lib.dir/build
 .PHONY : Code_lib/fast
 
 ExpressionTree.obj: ExpressionTree.cpp.obj
@@ -179,7 +179,7 @@ ExpressionTree.obj: ExpressionTree.cpp.obj
 
 # target to build an object file
 ExpressionTree.cpp.obj:
-	cd /d C:\Users\FatimaN\Desktop\Fatima\FALL24~1\ADS_PR~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f Code_lib\CMakeFiles\Code_lib.dir\build.make Code_lib/CMakeFiles/Code_lib.dir/ExpressionTree.cpp.obj
+	cd /d C:\Users\OUAILE~1\Desktop\mememe\college\SEMEST~4\APPLIE~1\CONVER~1\ADS_PR~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f Code_lib\CMakeFiles\Code_lib.dir\build.make Code_lib/CMakeFiles/Code_lib.dir/ExpressionTree.cpp.obj
 .PHONY : ExpressionTree.cpp.obj
 
 ExpressionTree.i: ExpressionTree.cpp.i
@@ -187,7 +187,7 @@ ExpressionTree.i: ExpressionTree.cpp.i
 
 # target to preprocess a source file
 ExpressionTree.cpp.i:
-	cd /d C:\Users\FatimaN\Desktop\Fatima\FALL24~1\ADS_PR~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f Code_lib\CMakeFiles\Code_lib.dir\build.make Code_lib/CMakeFiles/Code_lib.dir/ExpressionTree.cpp.i
+	cd /d C:\Users\OUAILE~1\Desktop\mememe\college\SEMEST~4\APPLIE~1\CONVER~1\ADS_PR~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f Code_lib\CMakeFiles\Code_lib.dir\build.make Code_lib/CMakeFiles/Code_lib.dir/ExpressionTree.cpp.i
 .PHONY : ExpressionTree.cpp.i
 
 ExpressionTree.s: ExpressionTree.cpp.s
@@ -195,7 +195,7 @@ ExpressionTree.s: ExpressionTree.cpp.s
 
 # target to generate assembly for a file
 ExpressionTree.cpp.s:
-	cd /d C:\Users\FatimaN\Desktop\Fatima\FALL24~1\ADS_PR~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f Code_lib\CMakeFiles\Code_lib.dir\build.make Code_lib/CMakeFiles/Code_lib.dir/ExpressionTree.cpp.s
+	cd /d C:\Users\OUAILE~1\Desktop\mememe\college\SEMEST~4\APPLIE~1\CONVER~1\ADS_PR~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f Code_lib\CMakeFiles\Code_lib.dir\build.make Code_lib/CMakeFiles/Code_lib.dir/ExpressionTree.cpp.s
 .PHONY : ExpressionTree.cpp.s
 
 MyStack.obj: MyStack.cpp.obj
@@ -203,7 +203,7 @@ MyStack.obj: MyStack.cpp.obj
 
 # target to build an object file
 MyStack.cpp.obj:
-	cd /d C:\Users\FatimaN\Desktop\Fatima\FALL24~1\ADS_PR~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f Code_lib\CMakeFiles\Code_lib.dir\build.make Code_lib/CMakeFiles/Code_lib.dir/MyStack.cpp.obj
+	cd /d C:\Users\OUAILE~1\Desktop\mememe\college\SEMEST~4\APPLIE~1\CONVER~1\ADS_PR~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f Code_lib\CMakeFiles\Code_lib.dir\build.make Code_lib/CMakeFiles/Code_lib.dir/MyStack.cpp.obj
 .PHONY : MyStack.cpp.obj
 
 MyStack.i: MyStack.cpp.i
@@ -211,7 +211,7 @@ MyStack.i: MyStack.cpp.i
 
 # target to preprocess a source file
 MyStack.cpp.i:
-	cd /d C:\Users\FatimaN\Desktop\Fatima\FALL24~1\ADS_PR~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f Code_lib\CMakeFiles\Code_lib.dir\build.make Code_lib/CMakeFiles/Code_lib.dir/MyStack.cpp.i
+	cd /d C:\Users\OUAILE~1\Desktop\mememe\college\SEMEST~4\APPLIE~1\CONVER~1\ADS_PR~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f Code_lib\CMakeFiles\Code_lib.dir\build.make Code_lib/CMakeFiles/Code_lib.dir/MyStack.cpp.i
 .PHONY : MyStack.cpp.i
 
 MyStack.s: MyStack.cpp.s
@@ -219,7 +219,7 @@ MyStack.s: MyStack.cpp.s
 
 # target to generate assembly for a file
 MyStack.cpp.s:
-	cd /d C:\Users\FatimaN\Desktop\Fatima\FALL24~1\ADS_PR~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f Code_lib\CMakeFiles\Code_lib.dir\build.make Code_lib/CMakeFiles/Code_lib.dir/MyStack.cpp.s
+	cd /d C:\Users\OUAILE~1\Desktop\mememe\college\SEMEST~4\APPLIE~1\CONVER~1\ADS_PR~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f Code_lib\CMakeFiles\Code_lib.dir\build.make Code_lib/CMakeFiles/Code_lib.dir/MyStack.cpp.s
 .PHONY : MyStack.cpp.s
 
 MyVector.obj: MyVector.cpp.obj
@@ -227,7 +227,7 @@ MyVector.obj: MyVector.cpp.obj
 
 # target to build an object file
 MyVector.cpp.obj:
-	cd /d C:\Users\FatimaN\Desktop\Fatima\FALL24~1\ADS_PR~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f Code_lib\CMakeFiles\Code_lib.dir\build.make Code_lib/CMakeFiles/Code_lib.dir/MyVector.cpp.obj
+	cd /d C:\Users\OUAILE~1\Desktop\mememe\college\SEMEST~4\APPLIE~1\CONVER~1\ADS_PR~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f Code_lib\CMakeFiles\Code_lib.dir\build.make Code_lib/CMakeFiles/Code_lib.dir/MyVector.cpp.obj
 .PHONY : MyVector.cpp.obj
 
 MyVector.i: MyVector.cpp.i
@@ -235,7 +235,7 @@ MyVector.i: MyVector.cpp.i
 
 # target to preprocess a source file
 MyVector.cpp.i:
-	cd /d C:\Users\FatimaN\Desktop\Fatima\FALL24~1\ADS_PR~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f Code_lib\CMakeFiles\Code_lib.dir\build.make Code_lib/CMakeFiles/Code_lib.dir/MyVector.cpp.i
+	cd /d C:\Users\OUAILE~1\Desktop\mememe\college\SEMEST~4\APPLIE~1\CONVER~1\ADS_PR~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f Code_lib\CMakeFiles\Code_lib.dir\build.make Code_lib/CMakeFiles/Code_lib.dir/MyVector.cpp.i
 .PHONY : MyVector.cpp.i
 
 MyVector.s: MyVector.cpp.s
@@ -243,7 +243,7 @@ MyVector.s: MyVector.cpp.s
 
 # target to generate assembly for a file
 MyVector.cpp.s:
-	cd /d C:\Users\FatimaN\Desktop\Fatima\FALL24~1\ADS_PR~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f Code_lib\CMakeFiles\Code_lib.dir\build.make Code_lib/CMakeFiles/Code_lib.dir/MyVector.cpp.s
+	cd /d C:\Users\OUAILE~1\Desktop\mememe\college\SEMEST~4\APPLIE~1\CONVER~1\ADS_PR~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f Code_lib\CMakeFiles\Code_lib.dir\build.make Code_lib/CMakeFiles/Code_lib.dir/MyVector.cpp.s
 .PHONY : MyVector.cpp.s
 
 # Help Target
@@ -279,6 +279,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\FatimaN\Desktop\Fatima\FALL24~1\ADS_PR~1\CMAKE-~1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\OUAILE~1\Desktop\mememe\college\SEMEST~4\APPLIE~1\CONVER~1\ADS_PR~1\CMAKE-~1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
