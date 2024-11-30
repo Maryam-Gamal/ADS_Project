@@ -1,2 +1,2 @@
-C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\ar.exe qc libCode_lib.a CMakeFiles/Code_lib.dir/MyStack.cpp.obj CMakeFiles/Code_lib.dir/MyVector.cpp.obj CMakeFiles/Code_lib.dir/ExpressionTree.cpp.obj
-C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\ranlib.exe libCode_lib.a
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\ar.exe qc libCode_lib.a CMakeFiles/Code_lib.dir/MyStack.cpp.obj CMakeFiles/Code_lib.dir/MyVector.cpp.obj CMakeFiles/Code_lib.dir/ExpressionTree.cpp.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\ranlib.exe libCode_lib.a

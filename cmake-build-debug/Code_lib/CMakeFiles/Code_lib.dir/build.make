@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\ouail estoyloco\Desktop\mememe\college\semester 4\applied data structures\converter\ADS_Project"
+CMAKE_SOURCE_DIR = C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\ouail estoyloco\Desktop\mememe\college\semester 4\applied data structures\converter\ADS_Project\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include Code_lib/CMakeFiles/Code_lib.dir/depend.make
@@ -70,48 +70,48 @@ include Code_lib/CMakeFiles/Code_lib.dir/flags.make
 
 Code_lib/CMakeFiles/Code_lib.dir/MyStack.cpp.obj: Code_lib/CMakeFiles/Code_lib.dir/flags.make
 Code_lib/CMakeFiles/Code_lib.dir/MyStack.cpp.obj: Code_lib/CMakeFiles/Code_lib.dir/includes_CXX.rsp
-Code_lib/CMakeFiles/Code_lib.dir/MyStack.cpp.obj: C:/Users/ouail\ estoyloco/Desktop/mememe/college/semester\ 4/applied\ data\ structures/converter/ADS_Project/Code_lib/MyStack.cpp
+Code_lib/CMakeFiles/Code_lib.dir/MyStack.cpp.obj: C:/Users/marya/OneDrive/Documents/GitHub/ADS_Project/Code_lib/MyStack.cpp
 Code_lib/CMakeFiles/Code_lib.dir/MyStack.cpp.obj: Code_lib/CMakeFiles/Code_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\ouail estoyloco\Desktop\mememe\college\semester 4\applied data structures\converter\ADS_Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Code_lib/CMakeFiles/Code_lib.dir/MyStack.cpp.obj"
-	cd /d C:\Users\OUAILE~1\Desktop\mememe\college\SEMEST~4\APPLIE~1\CONVER~1\ADS_PR~1\CMAKE-~1\Code_lib && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Code_lib/CMakeFiles/Code_lib.dir/MyStack.cpp.obj -MF CMakeFiles\Code_lib.dir\MyStack.cpp.obj.d -o CMakeFiles\Code_lib.dir\MyStack.cpp.obj -c "C:\Users\ouail estoyloco\Desktop\mememe\college\semester 4\applied data structures\converter\ADS_Project\Code_lib\MyStack.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Code_lib/CMakeFiles/Code_lib.dir/MyStack.cpp.obj"
+	cd /d C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\cmake-build-debug\Code_lib && C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Code_lib/CMakeFiles/Code_lib.dir/MyStack.cpp.obj -MF CMakeFiles\Code_lib.dir\MyStack.cpp.obj.d -o CMakeFiles\Code_lib.dir\MyStack.cpp.obj -c C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\Code_lib\MyStack.cpp
 
 Code_lib/CMakeFiles/Code_lib.dir/MyStack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Code_lib.dir/MyStack.cpp.i"
-	cd /d C:\Users\OUAILE~1\Desktop\mememe\college\SEMEST~4\APPLIE~1\CONVER~1\ADS_PR~1\CMAKE-~1\Code_lib && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\ouail estoyloco\Desktop\mememe\college\semester 4\applied data structures\converter\ADS_Project\Code_lib\MyStack.cpp" > CMakeFiles\Code_lib.dir\MyStack.cpp.i
+	cd /d C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\cmake-build-debug\Code_lib && C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\Code_lib\MyStack.cpp > CMakeFiles\Code_lib.dir\MyStack.cpp.i
 
 Code_lib/CMakeFiles/Code_lib.dir/MyStack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Code_lib.dir/MyStack.cpp.s"
-	cd /d C:\Users\OUAILE~1\Desktop\mememe\college\SEMEST~4\APPLIE~1\CONVER~1\ADS_PR~1\CMAKE-~1\Code_lib && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\ouail estoyloco\Desktop\mememe\college\semester 4\applied data structures\converter\ADS_Project\Code_lib\MyStack.cpp" -o CMakeFiles\Code_lib.dir\MyStack.cpp.s
+	cd /d C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\cmake-build-debug\Code_lib && C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\Code_lib\MyStack.cpp -o CMakeFiles\Code_lib.dir\MyStack.cpp.s
 
 Code_lib/CMakeFiles/Code_lib.dir/MyVector.cpp.obj: Code_lib/CMakeFiles/Code_lib.dir/flags.make
 Code_lib/CMakeFiles/Code_lib.dir/MyVector.cpp.obj: Code_lib/CMakeFiles/Code_lib.dir/includes_CXX.rsp
-Code_lib/CMakeFiles/Code_lib.dir/MyVector.cpp.obj: C:/Users/ouail\ estoyloco/Desktop/mememe/college/semester\ 4/applied\ data\ structures/converter/ADS_Project/Code_lib/MyVector.cpp
+Code_lib/CMakeFiles/Code_lib.dir/MyVector.cpp.obj: C:/Users/marya/OneDrive/Documents/GitHub/ADS_Project/Code_lib/MyVector.cpp
 Code_lib/CMakeFiles/Code_lib.dir/MyVector.cpp.obj: Code_lib/CMakeFiles/Code_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\ouail estoyloco\Desktop\mememe\college\semester 4\applied data structures\converter\ADS_Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Code_lib/CMakeFiles/Code_lib.dir/MyVector.cpp.obj"
-	cd /d C:\Users\OUAILE~1\Desktop\mememe\college\SEMEST~4\APPLIE~1\CONVER~1\ADS_PR~1\CMAKE-~1\Code_lib && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Code_lib/CMakeFiles/Code_lib.dir/MyVector.cpp.obj -MF CMakeFiles\Code_lib.dir\MyVector.cpp.obj.d -o CMakeFiles\Code_lib.dir\MyVector.cpp.obj -c "C:\Users\ouail estoyloco\Desktop\mememe\college\semester 4\applied data structures\converter\ADS_Project\Code_lib\MyVector.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Code_lib/CMakeFiles/Code_lib.dir/MyVector.cpp.obj"
+	cd /d C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\cmake-build-debug\Code_lib && C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Code_lib/CMakeFiles/Code_lib.dir/MyVector.cpp.obj -MF CMakeFiles\Code_lib.dir\MyVector.cpp.obj.d -o CMakeFiles\Code_lib.dir\MyVector.cpp.obj -c C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\Code_lib\MyVector.cpp
 
 Code_lib/CMakeFiles/Code_lib.dir/MyVector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Code_lib.dir/MyVector.cpp.i"
-	cd /d C:\Users\OUAILE~1\Desktop\mememe\college\SEMEST~4\APPLIE~1\CONVER~1\ADS_PR~1\CMAKE-~1\Code_lib && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\ouail estoyloco\Desktop\mememe\college\semester 4\applied data structures\converter\ADS_Project\Code_lib\MyVector.cpp" > CMakeFiles\Code_lib.dir\MyVector.cpp.i
+	cd /d C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\cmake-build-debug\Code_lib && C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\Code_lib\MyVector.cpp > CMakeFiles\Code_lib.dir\MyVector.cpp.i
 
 Code_lib/CMakeFiles/Code_lib.dir/MyVector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Code_lib.dir/MyVector.cpp.s"
-	cd /d C:\Users\OUAILE~1\Desktop\mememe\college\SEMEST~4\APPLIE~1\CONVER~1\ADS_PR~1\CMAKE-~1\Code_lib && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\ouail estoyloco\Desktop\mememe\college\semester 4\applied data structures\converter\ADS_Project\Code_lib\MyVector.cpp" -o CMakeFiles\Code_lib.dir\MyVector.cpp.s
+	cd /d C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\cmake-build-debug\Code_lib && C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\Code_lib\MyVector.cpp -o CMakeFiles\Code_lib.dir\MyVector.cpp.s
 
 Code_lib/CMakeFiles/Code_lib.dir/ExpressionTree.cpp.obj: Code_lib/CMakeFiles/Code_lib.dir/flags.make
 Code_lib/CMakeFiles/Code_lib.dir/ExpressionTree.cpp.obj: Code_lib/CMakeFiles/Code_lib.dir/includes_CXX.rsp
-Code_lib/CMakeFiles/Code_lib.dir/ExpressionTree.cpp.obj: C:/Users/ouail\ estoyloco/Desktop/mememe/college/semester\ 4/applied\ data\ structures/converter/ADS_Project/Code_lib/ExpressionTree.cpp
+Code_lib/CMakeFiles/Code_lib.dir/ExpressionTree.cpp.obj: C:/Users/marya/OneDrive/Documents/GitHub/ADS_Project/Code_lib/ExpressionTree.cpp
 Code_lib/CMakeFiles/Code_lib.dir/ExpressionTree.cpp.obj: Code_lib/CMakeFiles/Code_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\ouail estoyloco\Desktop\mememe\college\semester 4\applied data structures\converter\ADS_Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Code_lib/CMakeFiles/Code_lib.dir/ExpressionTree.cpp.obj"
-	cd /d C:\Users\OUAILE~1\Desktop\mememe\college\SEMEST~4\APPLIE~1\CONVER~1\ADS_PR~1\CMAKE-~1\Code_lib && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Code_lib/CMakeFiles/Code_lib.dir/ExpressionTree.cpp.obj -MF CMakeFiles\Code_lib.dir\ExpressionTree.cpp.obj.d -o CMakeFiles\Code_lib.dir\ExpressionTree.cpp.obj -c "C:\Users\ouail estoyloco\Desktop\mememe\college\semester 4\applied data structures\converter\ADS_Project\Code_lib\ExpressionTree.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Code_lib/CMakeFiles/Code_lib.dir/ExpressionTree.cpp.obj"
+	cd /d C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\cmake-build-debug\Code_lib && C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Code_lib/CMakeFiles/Code_lib.dir/ExpressionTree.cpp.obj -MF CMakeFiles\Code_lib.dir\ExpressionTree.cpp.obj.d -o CMakeFiles\Code_lib.dir\ExpressionTree.cpp.obj -c C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\Code_lib\ExpressionTree.cpp
 
 Code_lib/CMakeFiles/Code_lib.dir/ExpressionTree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Code_lib.dir/ExpressionTree.cpp.i"
-	cd /d C:\Users\OUAILE~1\Desktop\mememe\college\SEMEST~4\APPLIE~1\CONVER~1\ADS_PR~1\CMAKE-~1\Code_lib && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\ouail estoyloco\Desktop\mememe\college\semester 4\applied data structures\converter\ADS_Project\Code_lib\ExpressionTree.cpp" > CMakeFiles\Code_lib.dir\ExpressionTree.cpp.i
+	cd /d C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\cmake-build-debug\Code_lib && C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\Code_lib\ExpressionTree.cpp > CMakeFiles\Code_lib.dir\ExpressionTree.cpp.i
 
 Code_lib/CMakeFiles/Code_lib.dir/ExpressionTree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Code_lib.dir/ExpressionTree.cpp.s"
-	cd /d C:\Users\OUAILE~1\Desktop\mememe\college\SEMEST~4\APPLIE~1\CONVER~1\ADS_PR~1\CMAKE-~1\Code_lib && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\ouail estoyloco\Desktop\mememe\college\semester 4\applied data structures\converter\ADS_Project\Code_lib\ExpressionTree.cpp" -o CMakeFiles\Code_lib.dir\ExpressionTree.cpp.s
+	cd /d C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\cmake-build-debug\Code_lib && C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\Code_lib\ExpressionTree.cpp -o CMakeFiles\Code_lib.dir\ExpressionTree.cpp.s
 
 # Object files for target Code_lib
 Code_lib_OBJECTS = \
@@ -127,19 +127,19 @@ Code_lib/libCode_lib.a: Code_lib/CMakeFiles/Code_lib.dir/MyVector.cpp.obj
 Code_lib/libCode_lib.a: Code_lib/CMakeFiles/Code_lib.dir/ExpressionTree.cpp.obj
 Code_lib/libCode_lib.a: Code_lib/CMakeFiles/Code_lib.dir/build.make
 Code_lib/libCode_lib.a: Code_lib/CMakeFiles/Code_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\ouail estoyloco\Desktop\mememe\college\semester 4\applied data structures\converter\ADS_Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libCode_lib.a"
-	cd /d C:\Users\OUAILE~1\Desktop\mememe\college\SEMEST~4\APPLIE~1\CONVER~1\ADS_PR~1\CMAKE-~1\Code_lib && $(CMAKE_COMMAND) -P CMakeFiles\Code_lib.dir\cmake_clean_target.cmake
-	cd /d C:\Users\OUAILE~1\Desktop\mememe\college\SEMEST~4\APPLIE~1\CONVER~1\ADS_PR~1\CMAKE-~1\Code_lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Code_lib.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libCode_lib.a"
+	cd /d C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\cmake-build-debug\Code_lib && $(CMAKE_COMMAND) -P CMakeFiles\Code_lib.dir\cmake_clean_target.cmake
+	cd /d C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\cmake-build-debug\Code_lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Code_lib.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Code_lib/CMakeFiles/Code_lib.dir/build: Code_lib/libCode_lib.a
 .PHONY : Code_lib/CMakeFiles/Code_lib.dir/build
 
 Code_lib/CMakeFiles/Code_lib.dir/clean:
-	cd /d C:\Users\OUAILE~1\Desktop\mememe\college\SEMEST~4\APPLIE~1\CONVER~1\ADS_PR~1\CMAKE-~1\Code_lib && $(CMAKE_COMMAND) -P CMakeFiles\Code_lib.dir\cmake_clean.cmake
+	cd /d C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\cmake-build-debug\Code_lib && $(CMAKE_COMMAND) -P CMakeFiles\Code_lib.dir\cmake_clean.cmake
 .PHONY : Code_lib/CMakeFiles/Code_lib.dir/clean
 
 Code_lib/CMakeFiles/Code_lib.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\ouail estoyloco\Desktop\mememe\college\semester 4\applied data structures\converter\ADS_Project" "C:\Users\ouail estoyloco\Desktop\mememe\college\semester 4\applied data structures\converter\ADS_Project\Code_lib" "C:\Users\ouail estoyloco\Desktop\mememe\college\semester 4\applied data structures\converter\ADS_Project\cmake-build-debug" "C:\Users\ouail estoyloco\Desktop\mememe\college\semester 4\applied data structures\converter\ADS_Project\cmake-build-debug\Code_lib" "C:\Users\ouail estoyloco\Desktop\mememe\college\semester 4\applied data structures\converter\ADS_Project\cmake-build-debug\Code_lib\CMakeFiles\Code_lib.dir\DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\Code_lib C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\cmake-build-debug C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\cmake-build-debug\Code_lib C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\cmake-build-debug\Code_lib\CMakeFiles\Code_lib.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : Code_lib/CMakeFiles/Code_lib.dir/depend
 
