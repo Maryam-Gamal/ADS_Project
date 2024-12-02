@@ -3,6 +3,8 @@
 #include <stdexcept>
 #include <cmath>
 #include <sstream>
+#include <functional>
+#include <iostream>
 
 // Constructors and destructors
 ExpressionTree::ExpressionTree() {}
@@ -532,4 +534,31 @@ int ExpressionTree::determineExpressionType(const MyVector& tokens) {
 
     // If no clear type is detected
     throw std::runtime_error("Unable to determine expression type");
+}
+
+// Function to prompt the user for variable values if he enters an expressions containing variables
+unordered_map<std::string, double> ExpressionTree::getVariableValues(ExpressionTree::TreeNode* root) {
+    unordered_map<std::string, double> variableValues;
+
+    function<void(ExpressionTree::TreeNode*)> collectVariables = [&](ExpressionTree::TreeNode* node) {
+        if (!node) return;
+        if (ExpressionTree::isVariable(node->value)) {
+            if (variableValues.find(node->value) == variableValues.end()) {
+                cout << "Enter the value for variable '" << node->value << "': " << std::endl;
+                double value;
+                // cin >> value;
+                while (!(cin >> value)) {
+                    cin.clear(); // Clear the error flag
+                    cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Discard invalid input
+                    cout << "Invalid input! Please enter a numeric value for '" << node->value << "': " << endl;
+                }
+                variableValues[node->value] = value;
+            }
+        }
+        collectVariables(node->left);
+        collectVariables(node->right);
+    };
+
+    collectVariables(root);
+    return variableValues;
 }

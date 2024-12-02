@@ -9,35 +9,6 @@
 using namespace  std;
 
 
-// Function to prompt the user for variable values if he enters an expressions containing variables
-unordered_map<std::string, double> getVariableValues(ExpressionTree::TreeNode* root) {
-    unordered_map<std::string, double> variableValues;
-
-   function<void(ExpressionTree::TreeNode*)> collectVariables = [&](ExpressionTree::TreeNode* node) {
-        if (!node) return;
-        if (ExpressionTree::isVariable(node->value)) {
-            if (variableValues.find(node->value) == variableValues.end()) {
-                cout << "Enter the value for variable '" << node->value << "': " << std::endl;
-                double value;
-               // cin >> value;
-                while (!(cin >> value)) {
-                    cin.clear(); // Clear the error flag
-                    cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Discard invalid input
-                    cout << "Invalid input! Please enter a numeric value for '" << node->value << "': " << endl;
-                }
-                variableValues[node->value] = value;
-            }
-        }
-        collectVariables(node->left);
-        collectVariables(node->right);
-    };
-
-    collectVariables(root);
-    return variableValues;
-}
-
-
-
 
 int main() {
     ExpressionTree exprTree;
@@ -109,7 +80,7 @@ int main() {
                 cout << "Postfix: " << exprTree.postorder(root) << endl;
 
                 // Get variable values and evaluate
-                unordered_map<string, double> variableValues = getVariableValues(root);
+                unordered_map<string, double> variableValues = exprTree.getVariableValues(root);
 
                 try {
                     std::cout << std::fixed << std::setprecision(9);

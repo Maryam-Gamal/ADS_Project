@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Google_Tests_run.dir/ExpressionTreeTest.cpp.obj"
+  "CMakeFiles/Google_Tests_run.dir/ExpressionTreeTest.cpp.obj.d"
   "CMakeFiles/Google_Tests_run.dir/TestStack.cpp.obj"
   "CMakeFiles/Google_Tests_run.dir/TestStack.cpp.obj.d"
   "CMakeFiles/Google_Tests_run.dir/TestVector.cpp.obj"

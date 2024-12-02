@@ -174,6 +174,30 @@ Google_Tests_run/fast:
 	cd /d C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Google_tests\CMakeFiles\Google_Tests_run.dir\build.make Google_tests/CMakeFiles/Google_Tests_run.dir/build
 .PHONY : Google_Tests_run/fast
 
+ExpressionTreeTest.obj: ExpressionTreeTest.cpp.obj
+.PHONY : ExpressionTreeTest.obj
+
+# target to build an object file
+ExpressionTreeTest.cpp.obj:
+	cd /d C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Google_tests\CMakeFiles\Google_Tests_run.dir\build.make Google_tests/CMakeFiles/Google_Tests_run.dir/ExpressionTreeTest.cpp.obj
+.PHONY : ExpressionTreeTest.cpp.obj
+
+ExpressionTreeTest.i: ExpressionTreeTest.cpp.i
+.PHONY : ExpressionTreeTest.i
+
+# target to preprocess a source file
+ExpressionTreeTest.cpp.i:
+	cd /d C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Google_tests\CMakeFiles\Google_Tests_run.dir\build.make Google_tests/CMakeFiles/Google_Tests_run.dir/ExpressionTreeTest.cpp.i
+.PHONY : ExpressionTreeTest.cpp.i
+
+ExpressionTreeTest.s: ExpressionTreeTest.cpp.s
+.PHONY : ExpressionTreeTest.s
+
+# target to generate assembly for a file
+ExpressionTreeTest.cpp.s:
+	cd /d C:\Users\marya\OneDrive\Documents\GitHub\ADS_Project\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Google_tests\CMakeFiles\Google_Tests_run.dir\build.make Google_tests/CMakeFiles/Google_Tests_run.dir/ExpressionTreeTest.cpp.s
+.PHONY : ExpressionTreeTest.cpp.s
+
 TestStack.obj: TestStack.cpp.obj
 .PHONY : TestStack.obj
 
@@ -235,6 +259,9 @@ help:
 	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... Google_Tests_run
+	@echo ... ExpressionTreeTest.obj
+	@echo ... ExpressionTreeTest.i
+	@echo ... ExpressionTreeTest.s
 	@echo ... TestStack.obj
 	@echo ... TestStack.i
 	@echo ... TestStack.s

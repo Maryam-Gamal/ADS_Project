@@ -49,6 +49,7 @@ public:
     void validateExpressionStructure(const MyVector& tokens);
     void validatePostfixExpressionStructure(const MyVector& tokens);
     void validatePrefixExpressionStructure(const MyVector& tokens);
+    unordered_map<std::string, double> getVariableValues(ExpressionTree::TreeNode* root);
 
 };
 
