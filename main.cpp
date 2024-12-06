@@ -126,7 +126,7 @@ int main() {
                     // Get variable values and evaluate
                     unordered_map<string, double> variableValues = exprTree.getVariableValues(root);
                     try {
-                        std::cout << std::fixed << std::setprecision(9);
+                        std::cout << std::fixed << std::setprecision(10);
                         cout << "Evaluation Result: " << exprTree.evaluate(root, variableValues) << endl;
                     } catch (const exception& e) {
                         cerr << "Note: " << e.what() << endl;
